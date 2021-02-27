@@ -5,3 +5,10 @@ def square_array(array)
   end              #This new array will bill filled with the squared elements because number ** 2
   new_array       #** gives you the number to the power of 2 in this case
 end
+
+#Answer to the bonus question
+#def square_array(array)
+ # array.collect do |number|
+  #  number ** 2
+  #end
+#end
